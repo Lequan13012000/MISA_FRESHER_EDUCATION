@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.32014.148
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Misa.Fresher.Education.Api", "MISA_FRESHER_EDUCATION\Misa.Fresher.Education.Api.csproj", "{ACEBD5BC-7895-4A37-AD85-09A279039035}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Misa.Fresher.Education.Core", "Misa.Fresher.Education.Core\Misa.Fresher.Education.Core.csproj", "{7996094D-B135-4AC4-8F15-39AE37959217}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Misa.Fresher.Education.Infrastructure", "Misa.Fresher.Education.Infrastructure\Misa.Fresher.Education.Infrastructure.csproj", "{4F37F59A-558C-4051-A226-7BD54196EDC8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{ACEBD5BC-7895-4A37-AD85-09A279039035}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ACEBD5BC-7895-4A37-AD85-09A279039035}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ACEBD5BC-7895-4A37-AD85-09A279039035}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ACEBD5BC-7895-4A37-AD85-09A279039035}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7996094D-B135-4AC4-8F15-39AE37959217}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7996094D-B135-4AC4-8F15-39AE37959217}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7996094D-B135-4AC4-8F15-39AE37959217}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7996094D-B135-4AC4-8F15-39AE37959217}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4F37F59A-558C-4051-A226-7BD54196EDC8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4F37F59A-558C-4051-A226-7BD54196EDC8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4F37F59A-558C-4051-A226-7BD54196EDC8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4F37F59A-558C-4051-A226-7BD54196EDC8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1341214C-2121-48BE-AFC9-406D11F68F33}
+	EndGlobalSection
+EndGlobal

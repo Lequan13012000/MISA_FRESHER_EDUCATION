@@ -1,0 +1,25 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.2.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Misa.Fresher.Education.Core\Misa.Fresher.Education.Core.csproj" />
+    <ProjectReference Include="..\Misa.Fresher.Education.Infrastructure\Misa.Fresher.Education.Infrastructure.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Image\ExerciseAvatars\" />
+    <Folder Include="Attachments\" />
+    <Folder Include="TempAttachments\" />
+  </ItemGroup>
+
+</Project>
